@@ -139,6 +139,62 @@ button{
     
 }
 
+.causes-header{
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 5em;
+    padding : 0 1.5em 1.5em 0;    
+}
+
+.help-us {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.help-us-header {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.help-us h2 {
+    color: white;
+    text-decoration: underline;
+}
+
+.help-us h5 {
+    color: white;
+    margin: 1em 0em 1em 0em;
+}
+
+.help-us-card h3 {
+    color: white;
+}
+
+.help-us-card {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.help-us-card{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    
+}
+
 
 
 footer{
@@ -323,12 +379,5 @@ main{
    color: #fff;
 }
 
-.causes-header{
-    margin-top: 1.5em;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: 5em;
-    padding : 0 1.5em 1.5em 0;    
-}
+
 
